@@ -1,0 +1,46 @@
+body {
+    padding-bottom: 32px;
+}
+
+body .container {
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    font-size: 15px;
+    margin: 8px;
+    padding: 3px;
+}
+
+/* Dom */
+
+.contents {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 15px;
+}
+
+#generateButton {
+    margin-top: 5px;
+    margin-bottom: 15px;;
+}
+
+/* Custom Event */
+
+.buttons {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    padding: 15px;
+  }
+  
+.button {
+    margin: 8px;
+    height: 40px;
+}
